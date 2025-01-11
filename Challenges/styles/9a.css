@@ -1,0 +1,144 @@
+.div1
+{
+  width: 290px;
+  border: none;
+  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 15px;
+  box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.50);
+
+}
+
+.pic
+{
+  width: 35px;
+  height: 35px;
+  border-radius: 100px;
+  object-fit: cover;
+  vertical-align: top;
+}
+
+.type
+{
+  border: none;
+  vertical-align: top;
+  padding-top: 8px;
+  margin-left: 3px;
+}
+
+.tweet-button
+{
+  background-color: lightseagreen;
+  border: none;
+  border-radius: 18px;
+  color: white;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: bold;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: top;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.div2
+{
+  vertical-align: top;
+  display: inline-block;
+  width: 200px;
+  height: 300px;
+  border: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 3px 11px 9px rgba(0, 0, 0, 0.5);
+}
+
+.profile
+{
+  width: 200px;
+  height: 180px;
+  object-fit: cover;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+.name
+{
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.friends
+{
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: arial;
+  font-size: 15px;
+  color: rgb(96, 96, 96);
+  margin-top: 5px;
+}
+
+.add-button
+{
+  background-color: rgb(28, 93, 223);
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  margin-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.div3
+{
+  text-align: center;
+  
+}
+
+.search 
+{
+  border: none;
+  width: 600px;
+  height: 30px;
+  border-radius: 28px;
+  border: none;
+  font-family: arial;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.7);
+  margin-bottom: 30px;
+}
+
+.lucky,
+.google-search
+{
+  background-color: rgb(221, 219, 219);
+  font-family: arial;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: 10px;
+  cursor: pointer;
+}
