@@ -1,15 +1,14 @@
-.video-preview
+.video-grid
 {
-  width: 300px;
-  display: inline-block;
-  vertical-align: top;
-  margin-right: 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  row-gap: 40px;
 }
 
 .thumbnail
 {
-  width: 300px;
-  height: 168px;
+  width: 100%;
   object-fit: cover;
   margin-bottom: 10px;
 }
@@ -29,8 +28,7 @@
 
 .profile-picture
 {
-  width: 36px;
-  height: 36px;
+  width: 40px;
   object-fit: cover;
   border-radius: 100px;
 }
@@ -57,7 +55,7 @@
   margin-bottom: 0px;
   color: rgb(96, 96, 96);
   font-family: arial;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .video-stats
@@ -66,5 +64,11 @@
   margin-bottom: 0px;
   color: rgb(96, 96, 96);
   font-family: arial;
-  font-size: 12px;
+  font-size: 13px;
+}
+
+.video-info-grid
+{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }

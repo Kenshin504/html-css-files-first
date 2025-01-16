@@ -1,0 +1,54 @@
+.container
+{
+  font-family: arial;
+  font-weight: bold;
+  width: 300px;
+}
+
+.flexbox
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.profile-picture
+{
+  width: 50px;
+  border-radius: 100px;
+  margin-right: 10px;
+}
+
+.information
+{
+  flex: 1;
+}
+
+.traits
+{
+  font-weight: 200;
+  color: gray;
+}
+
+.follow-button
+{
+  font-family: arial;
+  font-size: 16px;
+  font-weight: bold;
+  background-color: rgb(5, 104, 235);
+  color: white;
+  border: none;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,53 @@
+.card
+{
+  font-size: 16px;
+  font-family: arial;
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(189, 189, 189);
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 5, 0.05);
+  width: 500px;
+  padding: 5px 5px 10px 10px;
+}
+
+.icon-section
+{
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+}
+
+.icon-part
+{
+  margin-right: 8px;
+}
+
+.user-icon
+{
+  width: 45px;
+  border-radius: 50px;
+}
+
+.email
+{
+  vertical-align: top;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title
+{
+  background-color: pink; 
+  display: flex;
+  justify-content: space-between;  
+  flex-direction: row;
+}
+
+.name
+{
+  font-weight: bold;
+}
