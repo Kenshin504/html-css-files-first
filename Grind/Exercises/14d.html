@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .side-bar
+            {
+                width: 70px;
+                background-color: rgb(36, 36, 36);
+                position: fixed;
+                position: flex;
+                left: 0;
+                top: 0;
+                bottom: 0;
+            }
+
+            .icon
+            {
+                height: 45px;
+                width: 45px;
+                object-fit: cover;
+                border-radius: 100px;
+                cursor: pointer;
+            }
+
+            .users
+            {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 20px;
+                margin-bottom: 0px;
+            }
+
+            .second-bar
+            {
+                background-color: rgb(61, 61, 61);
+                display: flex;
+                position: fixed;
+                flex-direction: column;
+                left: 70px;
+                top: 0;
+                bottom: 0;
+                width: 180px;
+            }
+            
+            .text-card
+            {
+                font-family: arial;
+                padding-left: 15px;
+                padding-top: 20px;
+                color: white;
+            }
+
+            .upper-section
+            {
+                display: flex;
+                flex-direction: space-between;
+                align-items: center;
+            }
+
+            .info-text
+            {
+                margin-right: 50px;
+                font-size: 14px;
+                font-weight: bold;
+            }
+
+            .add-text
+            {
+                font-family: arial;
+                margin-left: 50px;
+                font-weight: bold;
+                font-size: 20px;
+                color: gray;
+                cursor: pointer;
+            }
+
+            .channels
+            {
+                margin-top: 15px;
+                color: rgb(165, 165, 165);
+                font-size: 14px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="side-bar">
+            <div class="user-icons">
+                <div class="users">
+                    <img class="icon" src="images/cat.jpg">
+        
+                <div class="users">
+                    <img class="icon" src="images/cat2.jpg">
+                </div>
+        
+                <div class="users">
+                    <img class="icon" src="images/dog.jpg">
+                </div>
+            </div>
+        </div>
+        
+        <div class="second-bar">
+            <div class="text-card">
+                <div class="upper-section">
+                    <div class="info-text">
+                        INFO
+                    </div>
+
+                    <div class="add-text">
+                        &#43;
+                    </div>
+                </div>
+
+                <div class="channels">
+                    # new-videos
+                </div>
+
+                <div class="channels">
+                    # updates
+                </div>
+
+                <div class="channels">
+                    # faq
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

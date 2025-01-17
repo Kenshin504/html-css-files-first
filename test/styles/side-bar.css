@@ -1,0 +1,9 @@
+.side-bar
+{
+    background-color: aliceblue;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 60px;
+    width: 72px;
+}
